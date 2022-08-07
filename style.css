@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 * {
-  box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  padding: 4px;
 }
 
 /* Qr code  */
@@ -31,4 +31,23 @@
   height: 50px;
   font-size: 30px;
   cursor: pointer;
+}
+
+/* Sprit image */
+.sprite {
+  width: 55px;
+  height: 55px;
+  background: url("/images/Social_sprite_images.png") no-repeat;
+}
+.fb {
+  background-position: -48px -29px;
+}
+.ln {
+  background-position: -169px -29px;
+}
+.yt {
+  background-position: -351px -29px;
+}
+.tw {
+  background-position: -412px -29px;
 }
